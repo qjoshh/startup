@@ -1,0 +1,351 @@
+body{
+	background:url(image/vestrahorn_mountain_black_sand_beach_iceland-wallpaper-1280x768.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 135vh;
+	width: auto;
+}
+/*########### NAV ##########*/
+
+.back{
+	background: black;
+}
+
+/*########### GRAD ##########*/
+.colora{
+	color: rgba(255, 255, 255, .1);
+	background: linear-gradient(90deg, blue, red, pink);
+	-webkit-background-clip: text;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	width: 120px;
+	text-align: center;
+	margin-left: 10px;
+}
+.colora:hover{
+	color: red;
+	transition: 0.6s;
+}
+
+/*########### GRAD2 ##########*/
+
+.color{
+	color: rgba(255, 255, 255, .1);
+	background: linear-gradient(90deg, blue, red, pink);
+	-webkit-background-clip: text;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+.color:hover{
+	color: red;
+	transition: 0.6s;
+}
+
+.width{
+	width: 500px;
+}
+.sizer2{
+	width: 100% !important;
+	height: 70px !important;
+	position: relative;
+	overflow: hidden;
+	top: 0px;
+	left:-15px;
+	border: none;
+}
+.text{
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.center{
+	position: relative;
+	left:10px;
+	margin-top: 10px;
+
+}
+.th{
+	display:none;
+}
+
+
+/* ############# BOUNDARY ########### */
+
+.shape{
+	width: 89px;
+	height: 33px;
+	background-color:black;
+	color: gold;
+	border-radius: 5px;
+	border: none;
+	margin:4px;
+}
+.shapex{
+	width: 89px;
+	height: 33px;
+	background-color:black;
+	color: gold;
+	border-radius: 5px;
+	border: none;
+	margin:4px;
+}
+.shape2{
+	width: 89px;
+	height: 33px;
+	background: linear-gradient(90deg, #D70465, white);
+	color: black;
+	border-radius: 5px;
+	border: none;
+	margin:4px;
+}
+.shape3{
+	width: 89px;
+	height: 33px;
+	background: linear-gradient(90deg, #F94F26, magenta);
+	color: white;
+	border-radius: 5px;
+	border: none;
+	margin:4px;
+}
+.shape4{
+	width: 89px;
+	height: 33px;
+	background: linear-gradient(90deg, darkblue, skyblue);
+	color: white;
+	border-radius: 5px;
+	border: none;
+	margin:4px;
+}
+.shape5{
+	width: 89px;
+	height: 33px;
+	background: linear-gradient(90deg, red, blue);
+	color: white;
+	border-radius: 5px;
+	border: none;
+	margin:4px;
+}
+
+.shape6{
+	width: 89px;
+	height: 33px;
+	background: linear-gradient(90deg, gold,indigo);
+	color: white;
+	border-radius: 5px;
+	border: none;
+	margin:4px;
+}
+
+/* ############# BOUNDARY ########### */
+
+.shape:hover{
+	opacity: 0.7;
+}
+.cancel{
+	background-color:black;
+	color: gold;
+	border: none;
+	margin:4px;
+	position: relative;
+	left: -10px;
+}
+.mv{
+	position: relative;
+	left: 15px;
+}
+
+.mv2{
+	position: relative;
+	left: -15px;
+}
+.cons{
+	display: none;
+}
+
+.conv{
+	display: none;
+}
+.shift{
+	background: url(image/earth_4-wallpaper-1366x768.jpg);
+	width: 565px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 60px;
+	border-radius: 20px;
+	overflow:hidden;
+}
+.shift2{
+	background: url(image/earth_4-wallpaper-1366x768.jpg);
+	width: 320px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 60px;
+	border-radius: 20px;
+	overflow:hidden;
+}
+.shift3{
+	background: url(image/earth_4-wallpaper-1366x768.jpg);
+	width: 375px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 60px;
+	border-radius: 20px;
+	overflow:hidden;
+}
+.shift4{
+	background: url(image/earth_4-wallpaper-1366x768.jpg);
+	width: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 60px;
+	border-radius: 20px;
+	overflow:hidden;
+}
+/* ===========================for the info on a button labelled hover 2a-2m =========================================*/
+.hover2{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2a{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2b{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2c{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2d{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2e{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2f{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2g{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2h{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2i{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2j{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2k{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2h{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2l{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2m{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2n{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+.hover2o{
+	display:none;
+	position:relative;
+	top: -90px;
+	left: 50px !important;
+	color: white;
+	transition: 2s;
+}
+/*==============================End of hovers================================*/
+.tool{
+	color: rgba(255, 255, 255, .1);
+	background: linear-gradient(90deg, blue, red, pink);
+	-webkit-background-clip: text;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	width: 140px;
+	text-align: center;
+	margin-left: 10px;
+}

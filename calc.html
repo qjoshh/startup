@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="eng">
+<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+		<meta http-eqiv="x-ua-compatible" content="ie=edge">
+
+		<title>Sci-Calculator</title>
+		<link rel="stylesheet" type="text/css" href="js\bootstrap\css\bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="js\jquery-ui\jquery-ui.css">
+		<link rel="stylesheet" href="calc.css">
+</head>
+
+
+
+<body>
+
+<nav id="navbar-example" class="navbar navbar-expand-lg back">
+  <a class="navbar-brand colora" href="#">SCI-CALC-PRO</a>
+
+ <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    &#9776;
+	  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link color" href="#one">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link color" href="#two">CONTACT US</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          MODES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item tarnish">System Mode</a>
+          <a class="dropdown-item">Choose Phone Mode</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item smallest">320px</a>
+          <a class="dropdown-item smallest2">375px</a>
+          <a class="dropdown-item smallest3">425px</a>
+          <a class="dropdown-item smallest4">More Soon</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link color" href="#">FAQ</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      
+<div class="hover2 tool">Kilometers to Miles</div>
+					 <div class="hover2a tool">Miles to Kilometers</div>
+					 <div class="hover2b tool">Centimeters to Inches</div>
+					 <div class="hover2c tool">Inches to Centimeters</div>
+					 <div class="hover2d tool">Yards to Meters</div>
+					 <div class="hover2e tool">kelvin to celsius</div>
+					 <div class="hover2f tool">Celsius to Kelvin</div>
+					 <div class="hover2g tool">Celsius to Farenheit</div>
+					 <div class="hover2h tool">Farenheit to Celsius</div>
+					 <div class="hover2i tool">Meters to Yards</div>
+					 <div class="hover2j tool">Feet to Meters</div>
+					 <div class="hover2k tool">Meters to Feet</div>
+					 <div class="hover2l tool">Pounds to Newtons</div>
+					 <div class="hover2m tool">Newtons to Pounds</div>
+					 <div class="hover2n tool">Kelvin to Farenheit</div>
+					 <div class="hover2o tool">Farenheit to Kelvin</div>
+
+    </form>
+  </div>
+</nav>
+
+
+
+
+
+			<div class="container shift">
+
+
+					 <!-- effect takes place on hover of the abrievated buttons-->
+
+					 
+
+
+
+
+
+<div class="col-md-12 center">
+<div class="input-group">
+<textarea id="input_0" aria-label="number" class="sizer2 shape shapex" placeholder="" value="" readonly></textarea>
+</div>
+</div>
+
+
+
+<div class="row">
+<div class="col-md-12 mv">
+<button class = "shape" id="16">CONS</button>
+<button class = "shape" id="17">CONV</button>
+<button class = "shape" id="17a">CLR</button>
+<button class = "shape" type="button" value="-" onClick="document.getElementById('input_0').value+='.'">.</button>
+<button class = "shape" id="17ax">THEMES</button>
+</div>
+</div>
+
+
+<div class="col-md-12 th">
+<button class = "shape" id="17axb">ROSE</button>
+<button class = "shape" id="17axc">MAGNUM</button>
+<button class = "shape" id="17axd">OCEAN</button>
+<button class = "shape" id="17axe">BRUE</button>
+<button class = "shape" id="17axf">SPACE</button>
+</div>
+
+
+
+<div class="col-md-12">
+<button class = "shape" id="1">Sqrt</button>
+<button class = "shape" id="2">Square</button>
+<button class = "shape" id="6">Cube</button>
+<button class = "shape" id="7">Roundup</button>
+<button class = "shape" id="9">Exp</button>
+</div>
+
+
+
+<div class="col-md-12">
+<button class = "shape" id="3">Sine</button>
+<button class = "shape" id="4">Cos</button>
+<button class = "shape" id="5">Tan</button>
+<button class = "shape" id="8">Log</button>
+<button class = "shape" id="10">Pi</button>
+</div>
+
+
+<div class="col-md-12">
+<button class = "shape" type="button" value="1" onClick="document.getElementById('input_0').value+='('">(</button>
+<button class = "shape" type="button" value="2" onClick="document.getElementById('input_0').value+=')'">)</button>
+<button class = "shape" type="button" value="3" onClick="document.getElementById('input_0').value+='>'">></button>
+<button class = "shape" type="button" value="+" onClick="document.getElementById('input_0').value+='<'"><</button>
+<button class = "shape" type="button" value="1" onClick="document.getElementById('input_0').value+='**'">^</button>
+</div>
+
+
+<div class="col-md-12">
+<button class = "shape" type="button" value="1" onClick="document.getElementById('input_0').value+='1'">1</button>
+<button class = "shape" type="button" value="2" onClick="document.getElementById('input_0').value+='2'">2</button>
+<button class = "shape" type="button" value="3" onClick="document.getElementById('input_0').value+='3'">3</button>
+<button class = "shape" type="button" value="+" onClick="document.getElementById('input_0').value+='+'">+</button>
+<button class = "shape" type="button" value="-" onClick="document.getElementById('input_0').value+='-'">-</button>
+</div>
+
+<div class="col-md-12">
+<button class = "shape" type="button" value="4" onClick="document.getElementById('input_0').value+='4'">4</button>
+<button class = "shape" type="button" value="5" onClick="document.getElementById('input_0').value+='5'">5</button>
+<button class = "shape" type="button" value="6" onClick="document.getElementById('input_0').value+='6'">6</button>
+<button class = "shape" type="button" value="*" onClick="document.getElementById('input_0').value+='*'">*</button>
+<button class = "shape" type="button" value="/" onClick="document.getElementById('input_0').value+='/'">/</button>
+</div>
+
+<div class="col-md-12">
+<button class = "shape" type="button" value="7" onClick="document.getElementById('input_0').value+='7'">7</button>
+<button class = "shape" type="button" value="8" onClick="document.getElementById('input_0').value+='8'">8</button>
+<button class = "shape" type="button" value="9" onClick="document.getElementById('input_0').value+='9'">9</button>
+<button class = "shape" type="button" value="0" onClick="document.getElementById('input_0').value+='0'">0</button>
+<button class = "shape sub" type="button" value="=">=</button>
+</div>
+
+
+<div class="col-md-12">
+<button class = "shape" id="11">Force</button>
+<button class = "shape" id="12">Speed</button>
+<button class = "shape" id="13">Impulse</button>
+<button class = "shape" id="14">Energy</button>
+<button class = "shape" id="15">Work</button>
+</div>
+
+
+
+<div class="col-md-12">
+<button class = "shape first cons" id="18">G</button>
+<button class = "shape first cons" id="19">g</button>
+<button class = "shape first cons" id="20">h</button>
+<button class = "shape first cons" id="21">E</button>
+<button class = "shape first cons" id="22">c</button>
+</div>
+
+
+<div class="col-md-12">
+<button class = "shape first cons" id="23">eV</button>
+<button class = "shape first cons" id="24">A</button>
+<button class = "shape first cons" id="45">REar</button>
+<button class = "shape first cons" id="46">RSun</button>
+<button class = "shape first cons" id="47">RMon</button>
+</div>
+
+
+
+<div class="col-md-12">
+<button class = "shape first cons" id="25">MEar</button>
+<button class = "shape first cons" id="26">MSun</button>
+<button class = "shape first cons" id="27">MPro</button>
+<button class = "shape first cons" id="28">MEle</button>
+					
+					 <!--conversions-->
+
+<button class = "shape sec conv hoverx" id="29">Kel-cel</button>
+</div>
+
+
+<div class="col-md-12">
+<button class = "shape sec conv hoverxa" id="30">cel-kel</button>
+<button class = "shape sec conv hoveryb" id="43">far-kel</button>
+<button class = "shape sec conv hoverya" id="44">kel-far</button>
+<button class = "shape sec conv hoverxb" id="31">cel-far</button>
+<button class = "shape sec conv hoverxc" id="32">far-cel</button>
+</div>
+
+
+<div class="col-md-12">
+<button class = "shape sec conv hover" id="33">Km-Ml</button>
+<button class = "shape sec conv hovera" id="34">Ml-km</button>
+<button class = "shape sec conv hoverb" id="35">Cm-Ic</button>
+<button class = "shape sec conv hoverc" id="36">Ic-Cm</button>
+<button class = "shape sec conv hoverd" id="37">Yrd-M</button>
+</div>
+
+
+<div class="col-md-12">
+<button class = "shape sec conv hovere" id="38">M-Yrd</button>
+<button class = "shape sec conv hoverf" id="39">feet-M</button>
+<button class = "shape sec conv hoverg" id="40">M-feet</button>
+<button class = "shape sec conv hoverh" id="41">lb-N</button>
+<button class = "shape sec conv hoveri" id="42">N-lb</button>
+</div>
+
+
+
+
+</div>
+
+
+<script type="text/javascript" src="js\jquery-3.3.1.min.js"></script>
+<script type ="text/javascript" src="js\jquery-ui\jquery-ui.js"></script>
+<script type="text/javascript" src="js\bootstrap\js\bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js\calc.js"></script>
+</body>
+</html>
